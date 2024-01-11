@@ -3,9 +3,12 @@ body {
     font-family: Open Sans;
 }
 
-/* <!-- nav section starts --> */
+/* <!-- nav section start --> */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .nav {
@@ -54,11 +57,59 @@ body {
 
 /* banner section start */
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_con {
+    max-width: 500px;
 }
 
 .banner .dp {
     width: 500px;
+}
+
+.banner-greet {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner_title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner_para {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* about section start */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about_title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about_para {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
