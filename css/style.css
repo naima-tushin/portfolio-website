@@ -3,6 +3,13 @@ body {
     font-family: Open Sans;
 }
 
+/* common */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
 /* <!-- nav section start --> */
 .header {
     background-color: #FFF8F3;
@@ -112,4 +119,61 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_info {
+    text-align: center;
+}
+
+.about_info_title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about_info_para {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* <!-- what I do section start --> */
+#what_i_do_para {
+    padding: 30px 150px;
+}
+
+.skills_container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill_title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill_para {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Resume Section Start */
+.resume_column_title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
